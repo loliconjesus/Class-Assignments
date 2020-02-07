@@ -33,9 +33,22 @@ int main()
 			//else have them enter a password in a do while loop
 				//check if the password is correct, loop until it is, or let them return to the earlier menu with a break if they type back
 
+		/*temp delete later */ validPassword = true;
 	} while (validPassword == false);
 
-	//ask the player if they wanna play against a computer or another person
+
+	//the actual rock paper scissors game
+		/* 
+		-set up a do while loop for the main game loop
+		-set up random number generators for cpu's turns (remember to add 
+		variables to hold the cpu's guess and scores and stuff)
+		-tell the player to enter their move as a single character "r" for rock, "p" for paper or "s" for scissors
+		-need to write it out and figure out if a switch statement or a couple of if statements would be better
+		for comparing input with the cpu 
+		-add a plus one score to either the Wins, losses or ties variable
+
+
+		*/
 
 
 	system("pause");
